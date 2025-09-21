@@ -158,7 +158,7 @@
     <!-- Hero Section -->
     <section
       class="relative flex items-center overflow-hidden border-none"
-      style="background: linear-gradient(135deg, #0b1f49 0%, #1e2a5e 100%); height: 870px; max-height: 870px;">
+      style="background: linear-gradient(135deg, #0b1f49 0%, #0d1f47 50%); height: 870px; max-height: 870px;">
       
       <!-- Background Decorative Elements -->
       <div class="absolute inset-0 opacity-40">
@@ -1296,8 +1296,8 @@
       </div>
       
       <!-- Diagonal Bottom Border -->
-      <div class="absolute bottom-0 left-0 w-full overflow-hidden border-none border-bo">
-        <svg class="relative block w-full h-20" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <div class="absolute bottom-0 left-0 w-full overflow-hidden border-none border-box">
+        <svg class="relative block w-full h-24" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M0,120 L1200,0 L1200,120 Z" fill="#ffffff"></path>
         </svg>
       </div>
@@ -1397,15 +1397,17 @@
           <img
             src="img/hero character.png"
             alt="Featured customer Paul Stoute with testimonial"
-            style="width: 600px; height: 550px; object-fit: cover;" />
+            style="width: 600px; height: auto; object-fit: cover;" />
         </div>
       </div>
     </section>
 
     <!-- Featured Section -->
     <section class="py-16 border-none">
-      <div class="max-w-7xl mx-auto px-6">
-        <div class="text-center mb-12">
+      <!-- <div class="max-w-7xl mx-auto px-6"> -->
+      <div
+        class="mx-auto px-6" style="max-width: 1420px;">
+        <div class="text-center">
           <h2
             class="font-bold mb-4 text-balance text-center"
             style="color: #1F2278; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 36px; line-height: 50px; letter-spacing: 0%;">
@@ -1415,40 +1417,40 @@
         </div>
 
         <!-- Company Logos Carousel -->
-        <div class="relative overflow-hidden">
+        <div class="relative overflow-hidden space-y-0">
+            <!-- id="logo-carousel" -->
           <div
-            id="logo-carousel"
-            class="flex items-center justify-center space-x-12 lg:space-x-16 transition-transform duration-500">
+            class="flex items-center justify-center space-x-12 lg:space-x-16 transition-transform duration-500 h-[150px]">
             <div class="flex-shrink-0">
               <img
                 src="img/feature section liquid web.png"
                 alt="Liquid Web"
-                class="h-12 opacity-60 hover:opacity-100 transition-opacity" />
+                class="h-[82px] opacity-90 hover:opacity-100 transition-opacity" />
             </div>
             <div class="flex-shrink-0">
               <img
                 src="img/feature section upcity.png"
                 alt="UpCity"
-                class="h-12 opacity-60 hover:opacity-100 transition-opacity" />
+                class="h-[107px] opacity-90 hover:opacity-100 transition-opacity" />
             </div>
             <div class="flex-shrink-0">
               <img
                 src="img/feature section ugurus.png"
                 alt="Ugurus"
-                class="h-12 opacity-60 hover:opacity-100 transition-opacity" />
+                class="h-[110px] opacity-90 hover:opacity-100 transition-opacity" />
             </div>
             <div class="flex-shrink-0">
               <img
                 src="img/feature section wp engine.png"
                 alt="WP Engine"
-                class="h-12 opacity-60 hover:opacity-100 transition-opacity" />
+                class="h-[70px] opacity-90 hover:opacity-100 transition-opacity" />
             </div>
           </div>
 
           <!-- Navigation Arrows -->
           <button
             id="prev-btn"
-            class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:shadow-lg transition-shadow">
+            class="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white p-2 shadow-md hover:shadow-lg transition-shadow">
             <svg
               class="h-5 w-5 text-gray-600"
               fill="none"
@@ -1463,7 +1465,7 @@
           </button>
           <button
             id="next-btn"
-            class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white rounded-full p-2 shadow-md hover:shadow-lg transition-shadow">
+            class="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white p-2 shadow-md hover:shadow-lg transition-shadow">
             <svg
               class="h-5 w-5 text-gray-600"
               fill="none"
@@ -1482,10 +1484,12 @@
 
     <!-- Services Section -->
     <section
-      class="relative bg-gradient-to-br from-dark-navy to-navy-blue py-60 overflow-hidden">
+      class="relative py-60 flex items-center overflow-hidden border-none"
+      style="background: linear-gradient(135deg, #0b1f49 0%, #0d1f47 50%);">
+
       <!-- Top Diagonal Border -->
-      <div class="absolute top-0 right-0 w-full overflow-hidden border-none">
-        <svg class="relative block w-full h-20" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <div class="absolute top-0 right-0 w-full overflow-hidden border-none z-10">
+        <svg class="relative block w-full h-24" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M0,120 L1200,0 L0,0 Z" fill="#ffffff"></path>
         </svg>
       </div>
@@ -2248,7 +2252,7 @@
       </div>
 
       <!-- Floating Particles -->
-      <div class="absolute inset-0">
+      <!-- <div class="absolute inset-0">
         <div
           class="absolute top-32 left-32 w-2 h-2 bg-blue-400 rounded-full opacity-60"></div>
         <div
@@ -2259,7 +2263,7 @@
           class="absolute top-40 right-20 w-4 h-4 bg-blue-500 rounded-full opacity-30"></div>
         <div
           class="absolute bottom-20 right-32 w-2 h-2 bg-green-300 rounded-full opacity-60"></div>
-      </div>
+      </div> -->
 
       <div class="mx-auto px-6 relative z-10"  style="max-width: 1420px;">
         <!-- Section Header -->
@@ -2286,7 +2290,7 @@
               <img
                 src="img/service.png"
                 alt="MyWebAudit Tool Interface"
-                style="width: 770px; height: 590px; object-fit: cover;" />
+                style="width: 770px; height: auto; object-fit: cover;" />
             </div>
           </div>
 
@@ -2358,43 +2362,45 @@
       </div>
 
       <!-- Diagonal Bottom Border -->
-      <div class="absolute bottom-0 left-0 w-full overflow-hidden border-none border-bo">
-        <svg class="relative block w-full h-20" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <div class="absolute bottom-0 left-0 w-full overflow-hidden border-none border-box">
+        <svg class="relative block w-full h-24" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path d="M0,120 L1200,0 L1200,120 Z" fill="#ffffff"></path>
         </svg>
       </div>
     </section>
 
     <!-- Audit Section -->
-    <section class="py-20 bg-white">
-      <div class="max-w-7xl mx-auto px-6">
+    <section class="py-20 bg-white relative">
+      <div
+        class="mx-auto px-6" style="max-width: 1420px;">
         <!-- Section Header -->
-        <div class="text-center mb-16">
+        <div class="text-center mb-16 max-w-4xl mx-auto">
           <h2
-            class="text-4xl lg:text-5xl font-bold text-navy-blue mb-6 text-balance">
+            class="font-bold mb-4 text-balance text-center"
+            style="color: #1F2278; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 36px; line-height: 50px; letter-spacing: 0%;">
             Our audit reports have helped agencies close millions of dollars
           </h2>
-          <div class="w-24 h-1 bg-navy-blue mx-auto mb-6 rounded"></div>
-          <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p class="text-gray-600 leading-relaxed" style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 18px; line-height: 30px; letter-spacing: 0%;">
             Use our professionally written and designed audit reports to help
             your agency close more deals.
           </p>
         </div>
 
         <!-- Audit Types Grid -->
-        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-20">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mb-20">
+
           <!-- Website Audit -->
           <div class="text-center group cursor-pointer">
             <div
-              class="bg-gray-100 rounded-lg p-6 mb-4 group-hover:bg-gray-200 transition-colors">
+              class="bg-[#F2F7FE] h-[200px] pt-[50px] group-hover:bg-[#ffffff] transition-colors">
               <div
-                class="w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+                class="mx-auto mb-3 flex items-center justify-center">
                 <img
                   src="img/audit section website audit.png"
                   alt="Website Audit"
-                  class="w-8 h-8" />
+                  class="w-auto h-[50px]" />
               </div>
-              <h3 class="font-semibold text-gray-900 text-sm leading-tight">
+              <h3 class="font-semibold text-gray-900 text-base leading-tight">
                 Website Audit
               </h3>
             </div>
@@ -2402,35 +2408,35 @@
 
           <!-- Google Business Profile Audit - Highlighted -->
           <div class="text-center group cursor-pointer">
-            <div class="bg-gray-100 rounded-lg p-6 mb-4 relative">
+            <!-- Blue underline indicator -->
+            <div class="w-full h-1 bg-navy-blue"></div>
+            <div
+              class="bg-[#ffffff] h-[196px] pt-[50px] group-hover:bg-[#F2F7FE] transition-colors">
               <div
-                class="w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+                class="mx-auto mb-3 flex items-center justify-center">
                 <img
                   src="img/audit section google business.png"
                   alt="Google Business Profile Audit"
-                  class="w-8 h-8" />
+                  class="w-auto h-[50px]" />
               </div>
-              <h3 class="font-semibold text-navy-blue text-sm leading-tight">
+              <h3 class="font-semibold text-gray-900 text-base leading-tight">
                 Google Business Profile Audit
               </h3>
-              <!-- Blue underline indicator -->
-              <div
-                class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-navy-blue rounded"></div>
             </div>
           </div>
 
           <!-- On Page SEO Audit -->
           <div class="text-center group cursor-pointer">
             <div
-              class="bg-gray-100 rounded-lg p-6 mb-4 group-hover:bg-gray-200 transition-colors">
+              class="bg-[#F2F7FE] h-[200px] pt-[50px] group-hover:bg-[#ffffff] transition-colors">
               <div
-                class="w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+                class="mx-auto mb-3 flex items-center justify-center">
                 <img
                   src="img/audit section seo.png"
                   alt="On Page SEO Audit"
-                  class="w-8 h-8" />
+                  class="w-auto h-[50px]" />
               </div>
-              <h3 class="font-semibold text-gray-900 text-sm leading-tight">
+              <h3 class="font-semibold text-gray-900 text-base leading-tight">
                 On Page SEO Audit
               </h3>
             </div>
@@ -2439,15 +2445,15 @@
           <!-- Digital Competitive Analysis Audit -->
           <div class="text-center group cursor-pointer">
             <div
-              class="bg-gray-100 rounded-lg p-6 mb-4 group-hover:bg-gray-200 transition-colors">
+              class="bg-[#F2F7FE] h-[200px] pt-[50px] group-hover:bg-[#ffffff] transition-colors">
               <div
-                class="w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+                class="mx-auto mb-3 flex items-center justify-center">
                 <img
                   src="img/audit section digital.png"
                   alt="Digital Competitive Analysis Audit"
-                  class="w-8 h-8" />
+                  class="w-auto h-[50px]" />
               </div>
-              <h3 class="font-semibold text-gray-900 text-sm leading-tight">
+              <h3 class="font-semibold text-gray-900 text-base leading-tight">
                 Digital Competitive Analysis Audit
               </h3>
             </div>
@@ -2456,15 +2462,15 @@
           <!-- E-commerce Website Audit -->
           <div class="text-center group cursor-pointer">
             <div
-              class="bg-gray-100 rounded-lg p-6 mb-4 group-hover:bg-gray-200 transition-colors">
+              class="bg-[#F2F7FE] h-[200px] pt-[50px] group-hover:bg-[#ffffff] transition-colors">
               <div
-                class="w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+                class="mx-auto mb-3 flex items-center justify-center">
                 <img
                   src="img/audit section ecommerce.png"
                   alt="E-commerce Website Audit"
-                  class="w-8 h-8" />
+                  class="w-auto h-[50px]" />
               </div>
-              <h3 class="font-semibold text-gray-900 text-sm leading-tight">
+              <h3 class="font-semibold text-gray-900 text-base leading-tight">
                 E-commerce Website Audit
               </h3>
             </div>
@@ -2473,15 +2479,15 @@
           <!-- +6 Other Templates -->
           <div class="text-center group cursor-pointer">
             <div
-              class="bg-gray-100 rounded-lg p-6 mb-4 group-hover:bg-gray-200 transition-colors">
+              class="bg-[#F2F7FE] h-[200px] pt-[50px] group-hover:bg-[#ffffff] transition-colors">
               <div
-                class="w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+                class="mx-auto mb-3 flex items-center justify-center">
                 <img
                   src="img/audit section others.png"
                   alt="Other Templates"
-                  class="w-8 h-8" />
+                  class="w-auto h-[50px]" />
               </div>
-              <h3 class="font-semibold text-gray-900 text-sm leading-tight">
+              <h3 class="font-semibold text-gray-900 text-base leading-tight">
                 +6 Other Templates
               </h3>
             </div>
@@ -2489,14 +2495,16 @@
         </div>
 
         <!-- Google Business Profile Audit Detail -->
-        <div class="grid lg:grid-cols-2 gap-16 items-start">
+        <div class="grid lg:grid-cols-2 gap-0 items-start">
           <!-- Left Content -->
-          <div class="space-y-6">
-            <h3 class="text-3xl lg:text-4xl font-bold text-navy-blue mb-6">
+          <div class="space-y-6 max-w-[620px]">
+            <h3 
+            class="font-bold mb-4 text-balance"
+            style="color: #1F2278; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 36px; line-height: 50px; letter-spacing: 0%;">
               Google Business Profile Audit Report
             </h3>
 
-            <p class="text-gray-600 leading-relaxed">
+            <p class="text-gray-600 leading-relaxed" style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 18px; line-height: 30px; letter-spacing: 0%;">
               Audit and optimize your agency client's Google Business Profile to
               boost their local rankings.
             </p>
@@ -2528,31 +2536,36 @@
           </div>
 
           <!-- Right Content - Report Preview -->
-          <div class="space-y-6">
+          <div class="w-full flex justify-start">
             <!-- Main Report Cover -->
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div class="relative z-20 rounded-lg overflow-hidden w-[570px]">
               <img
                 src="img/audit section business profile 1.png"
                 alt="Google Business Profile Audit Report Cover"
                 class="w-full h-auto" />
             </div>
 
-            <!-- Report Pages Grid -->
-            <div class="grid grid-cols-2 gap-4">
-              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            <!-- Report Pages Behind -->
+            <div class="absolute right-40 bottom-25 z-10 flex space-x-4">
+              <div class="rounded-lg w-[480px]">
                 <img
                   src="img/audit section business profile 2.png"
                   alt="Audit Report Analytics"
                   class="w-full h-auto" />
               </div>
-              <div class="bg-white rounded-lg shadow-md overflow-hidden">
+            </div>
+            <!-- Report Pages Behind -->
+            <div class="absolute right-20 bottom-30 z-5 flex space-x-4">
+              <div class="rounded-lg w-[380px]">
                 <img
                   src="img/audit section business profile 3.png"
                   alt="Local Search Grid"
                   class="w-full h-auto" />
               </div>
             </div>
+
           </div>
+
         </div>
       </div>
     </section>
